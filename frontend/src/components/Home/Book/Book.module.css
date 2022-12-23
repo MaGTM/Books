@@ -54,5 +54,20 @@
 .content .bookInfo .description h3 {
   margin-bottom: 15px;
 }
+.content #back {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  top: 30px;
+  left: 30px;
+  border: #BEBEBE 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
 /*# sourceMappingURL=Book.module.css.map */
