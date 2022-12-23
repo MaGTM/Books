@@ -1,0 +1,12 @@
+.content {
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 60px;
+  position: relative;
+  #observer {
+    position: absolute;
+    bottom: 0;
+  }
+}

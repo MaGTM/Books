@@ -1,0 +1,76 @@
+.content {
+  grid-area: search;
+  position: relative;
+}
+.content #searchBar {
+  grid-area: search;
+  border: #BEBEBE 1px solid;
+  border-radius: 30px;
+  min-width: 190px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.content #searchBar #magnifier {
+  margin-left: 21px;
+  margin-right: 5px;
+  min-width: 32px;
+}
+.content #searchBar input {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.content #searchBar input::placeholder {
+  color: #BEBEBE;
+}
+.content #searchBar input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.content #searchBar input:focus::-moz-placeholder {
+  color: transparent;
+}
+.content #searchBar input:focus:-moz-placeholder {
+  color: transparent;
+}
+.content #searchBar input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.content #searchBar #close {
+  cursor: pointer;
+  min-width: 18px;
+  margin-right: 10px;
+}
+.content .dropdown {
+  margin-top: 20px;
+  position: absolute;
+  z-index: 100;
+  background-color: white;
+  border: 1px #BEBEBE solid;
+  width: 80%;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.content .dropdown::before {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  content: " ";
+  background-color: white;
+  transform: rotate(45deg);
+  top: -16px;
+  left: 10%;
+  border-radius: 7px 0 0 0;
+  border-top: #BEBEBE 1px solid;
+  border-left: #BEBEBE 1px solid;
+}
+
+/*# sourceMappingURL=SearchBar.module.css.map */

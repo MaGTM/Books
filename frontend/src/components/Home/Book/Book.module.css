@@ -1,0 +1,58 @@
+.content {
+  margin-left: 100px;
+  overflow-y: hidden;
+  height: 100vh;
+  position: relative;
+}
+.content img {
+  width: 100%;
+}
+.content .bookInfo {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  border-top: #BEBEBE 1px solid;
+  padding: 30px 60px;
+  width: 100%;
+}
+.content .bookInfo h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.content .bookInfo .authors {
+  color: #272B22;
+  display: flex;
+  gap: 30px;
+}
+.content .bookInfo .authors h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.content .bookInfo .rating {
+  margin-top: 20px;
+  display: flex;
+  gap: 7px;
+}
+.content .bookInfo .rating img {
+  width: 25px;
+  height: 23px;
+}
+.content .bookInfo .categories {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.content .bookInfo .categories span {
+  background-color: #0475D3;
+  padding: 10px 7px;
+  border-radius: 30px;
+  color: white;
+  font-size: 12px;
+}
+.content .bookInfo .description h3 {
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=Book.module.css.map */
